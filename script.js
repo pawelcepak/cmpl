@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const sendButton = document.getElementById("send-btn");
     const copyButton = document.getElementById("copy-btn");
     const chatContainer = document.getElementById("chat-container");
-    const apiKey = "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";
+    openai.api_key = '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'
     const dodInput = document.getElementById("dod-input");
 
     let botMessage = ""; // Variable to store bot response for copying
