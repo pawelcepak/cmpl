@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d5f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    width: 400px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-box {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.user-message {
+    background: #007bff;
+    color: white;
+    align-self: flex-end;
+}
+
+.bot-message {
+    background: #e1e1e1;
+    color: black;
+    align-self: flex-start;
+}
+
+.input-container {
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+
+input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#user-input {
+    width: 100%; /* Dopasowuje szerokość do dostępnej przestrzeni */
+    height: 200px; /* Możesz dostosować wysokość */
+    font-size: 12px; /* Zwiększa rozmiar czcionki */
+    padding: 5px; /* Dodaje trochę przestrzeni wewnątrz pola */
+    border-radius: 1px; /* Zaokrągla rogi */
+    box-sizing: border-box; /* Zabezpiecza przed przekroczeniem szerokości kontenera */
+}
+
+#dod-input {
+    width: 100%; /* Dopasowuje szerokość do dostępnej przestrzeni */
+    height: 60px; /* Możesz dostosować wysokość */
+    font-size: 12px; /* Zwiększa rozmiar czcionki */
+    padding: 5px; /* Dodaje trochę przestrzeni wewnątrz pola */
+    border-radius: 2px; /* Zaokrągla rogi */
+    box-sizing: border-box; /* Zabezpiecza przed przekroczeniem szerokości kontenera */
+}
+
+.btnn {
+    margin: 1px 0;
+}
